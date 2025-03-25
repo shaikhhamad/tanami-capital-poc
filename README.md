@@ -64,7 +64,7 @@ Welcome to the **Tanami Capital Flutter App**! This project is a mobile investme
    flutter run
    ```
 
-## Technical intro abount POC app tasks
+## Technical intro about POC app tasks
 The app fetches investment opportunities from a sample JSON. You can replace it with a real backend service when needed. Tried to create app which simulates the tanami theme, and according my imagination and market RND, added dashboard screen with soe sample data and investment opportunities with sample investment options that are scrollable and can be segregated by selecting a their type.
 
 ## USED ChatGPT
