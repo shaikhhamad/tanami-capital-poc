@@ -20,11 +20,21 @@ Welcome to the **Tanami Capital Flutter App**! This project is a mobile investme
 │   │   │── login_screen.dart
 │   │   │── dashboard_screen.dart
 │   │   │── feature_screen.dart
-│   │── providers
-│   │   │── auth_provider.dart
-│   │   │── investment_provider.dart
+│   │   │── registration_screen.dart
+│   │── assets
+│   │   │── tanami_logo.dart
 │   │── models
+│   │   │── investment_opportunity.dart
 │   │── services
+│   │   │── investment_service.dart
+│   │── theme
+│   │   │── colors.dart
+│   │   │── text_styles.dart
+│   │── widgets
+│   │   │── custom_button.dart
+│   │   │── custom_text_field.dart
+│   │   │── investment_card.dart
+│   │   │── step_indicator.dart
 │── web
 │── test
 │── pubspec.yaml
@@ -54,5 +64,8 @@ Welcome to the **Tanami Capital Flutter App**! This project is a mobile investme
    flutter run
    ```
 
-## API Integration
-The app fetches investment opportunities from a **mock REST API**. You can replace it with a real backend service when needed.
+## Technical intro abount POC app tasks
+The app fetches investment opportunities from a sample JSON. You can replace it with a real backend service when needed. Tried to create app which simulates the tanami theme, and according my imagination and market RND, added dashboard screen with soe sample data and investment opportunities with sample investment options that are scrollable and can be segregated by selecting a their type.
+
+## USED ChatGPT
+I used chat GPT for logo file, sample data. and boilerplate code
